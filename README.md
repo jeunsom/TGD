@@ -9,16 +9,16 @@ The data could be found in the 'Data' directory. You would have to unzip the cif
 
 [Data](https://www.dropbox.com/scl/fo/uhlraru1x1azyuhe0x2q8/AFs1w7yLsqE6NhCJBzAC5Z4?rlkey=hu2d76xzvolw3ym6kegks6eqe&dl=0)
 ```
-─cifar10
-        ├test # Contains the Org testing images
-        >> test_PIc # Contains the Column wise PI testing images
-        >> test_PIr # Contains the Row wise PI testing images
-        >> train # Contains the Org training images
-        >> train_PIc # Contains the Column wise PI training images
-        >> train_PIr # Contains the Row wise PI training images
-        >> labels.txt # File containing the list of labels
-        >> test.csv 
-        >> train_csv 
+cifar10
+├──test # Contains the Org testing images
+├──test_PIc # Contains the Column wise PI testing images
+├──test_PIr # Contains the Row wise PI testing images
+├──train # Contains the Org training images
+├──train_PIc # Contains the Column wise PI training images
+├──train_PIr # Contains the Row wise PI training images
+├──labels.txt # File containing the list of labels
+├──test.csv 
+├──train_csv 
 ```
 
 If you want to generate the PI images for some specific data, you can use the following GenPI_image.ipynb file.  
