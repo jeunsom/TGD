@@ -1,0 +1,12 @@
+Default requirements:
+python 3.7
+pytorch 1.3.1
+torchvision 0.4.2
+numpy  1.26.4
+
+For PI generation:
+scikit-learn        1.4.2
+pillow              10.2.0
+opencv-python       4.9.0.80
+
+More details and example of running codes are explained in README.md
