@@ -62,9 +62,9 @@ To train the model you will need to run the train.py script. This script will ac
 
 Command to train the model:
 
-'''
+```
 python3 main_train.py --epochs 200 --alpha 0.99 --teacher1 wrn163 --teacher2 wrn163 --teacher_checkpoint1 ./models/wrn163_Teacher1.pth.tar --teacher_checkpoint2 ./models/wrn163_Teacher2.pth.tar --student wrn161 --cuda 1 --dataset cifar10 --batch-size 128 --trial T_wrn163_163_S_wrn161_TGD --seed 1234 --save_weight 0 --student_checkpoint ./models/wrn161_Student.pth.tar
-'''
+```
 
 
 # Model Evaluation
@@ -75,7 +75,7 @@ Note: The main_eval.py script also contains most of the arguments similar to the
 
 Command to evaluate the model:
 
-'''
+```
 python3 main_eval.py --student wrn161 --batch-size 1 --cuda 1 --dataset cifar10 --trial eval_161 --seed 1234 --save_weight 0 --student_checkpoint ./models/T163_S161_TGD.pth.tar
-'''
+```
 
