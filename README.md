@@ -8,7 +8,8 @@ This repository is of our proposed method, TGD, where we use topological feature
 The data could be found in the 'Data' directory. You would have to unzip the cifar10.zip file inorder to access the data. The data follows the following file format:
 
 Data
-    > cifar10
+.
+├── cifar10
         >> test # Contains the Org testing images
         >> test_PIc # Contains the Column wise PI testing images
         >> test_PIr # Contains the Row wise PI testing images
