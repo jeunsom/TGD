@@ -9,16 +9,17 @@ The CIFAR-10 data can be downloaded at [link](https://www.dropbox.com/scl/fo/uhl
 
 [Data]
 ```
-cifar10
-├──test # Contains the Org testing images
-├──test_PIc # Contains the Column wise PI testing images
-├──test_PIr # Contains the Row wise PI testing images
-├──train # Contains the Org training images
-├──train_PIc # Contains the Column wise PI training images
-├──train_PIr # Contains the Row wise PI training images
-├──labels.txt # File containing the list of labels
-├──test.csv 
-└──train_csv 
+Data
+├──cifar10
+│   ├──test # Contains the Org testing images
+│   ├──test_PIc # Contains the Column wise PI testing images
+│   ├──test_PIr # Contains the Row wise PI testing images
+│   ├──train # Contains the Org training images
+│   ├──train_PIc # Contains the Column wise PI training images
+│   ├──train_PIr # Contains the Row wise PI training images
+│   ├──labels.txt # File containing the list of labels
+│   ├──test.csv 
+└── └──train_csv 
 ```
 
 If you want to generate the PI images for some specific data, you can use the following GenPI_image.ipynb file.  
