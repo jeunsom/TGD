@@ -18,7 +18,7 @@ cifar10
 ├──train_PIr # Contains the Row wise PI training images
 ├──labels.txt # File containing the list of labels
 ├──test.csv 
-├──train_csv 
+└──train_csv 
 ```
 
 If you want to generate the PI images for some specific data, you can use the following GenPI_image.ipynb file.  
