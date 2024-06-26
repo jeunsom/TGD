@@ -1,5 +1,5 @@
 # TGD
-Leveraging Topological Guidance for Improved Knowledge Distillation, GRaM workshop @ ICML
+Leveraging Topological Guidance for Improved Knowledge Distillation, GRaM workshop @ ICML 2024
 
 This repository is of our proposed method, TGD, where we use topological features in knowledge distillation (KD) to train and evaluate a light weight model for Cifar10 and CINIC10 dataset.
 
